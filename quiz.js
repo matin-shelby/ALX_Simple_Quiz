@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const userAnswer = option.value;
     
         // Compare Answer
-        if (userAnswer == correctAnswer) {
+        if (userAnswer === correctAnswer) {
             feedback.textContent = "Correct! Well done.";
         } else {
             feedback.textContent = "That's incorrect. Try again!";
